@@ -1,15 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>{{Route::CurrentRouteName(). "  -  ". config('app.name')}}</title>
-    @include('jscss')
-</head>
-<body>
-    <div class="container">
-        <div class="card container py-3">
+@extends('layout.main')
+@section('main')
+
             <br>
             <h3 class="text-center">Belongs To</h3>
             <div class="table-responsive">
@@ -36,6 +27,8 @@
                 </table>
             </div>
             <br> <br>
+        <h5 class="text-center">&copy;Rana Bepari</h5>
+            <br> <br> <br>
             <h3 class="text-center">Has Many</h3>
             <div class="table-responsive">
                 <table class="table table-light">
@@ -79,8 +72,5 @@
                 </table>
             </div>
             
-        </div>
-    </div>
     
-</body>
-</html>
+@endsection
