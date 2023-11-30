@@ -8,4 +8,4 @@ hasOne are added </br>
 
 Thanks, </br>
 Rana Bepari </br>
-<a href="https://rana.meranaint.com">https://rana.meranaint.com</a>
+<a href="https://ranasvc.com">Official Website</a>
