@@ -35,7 +35,7 @@
                     <thead>
                         <tr>
                             <th scope="col">Class Name</th>
-                            <th scope="col">Student Name</th>
+                            <th scope="col">Student Info's</th>
                         </tr>
                     </thead>
                     <tbody>

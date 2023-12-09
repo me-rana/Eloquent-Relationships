@@ -1,11 +1,13 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
+use App\Models\Shop;
 
-use App\Models\eClassRoom;
-use App\Models\Student;
 use App\Models\User;
+use App\Models\Product;
+use App\Models\Student;
 use App\Models\UserInfo;
+use App\Models\eClassRoom;
+use Illuminate\Support\Facades\Route;
 
 
 /*
@@ -30,3 +32,9 @@ Route::get('/hasOne', function () {
     $userinfos = UserInfo::all();
     return view('hasone',compact('users','userinfos'));
 });
+
+Route::get('/hasMany', function (){
+    $shops = Shop::all();
+    $products =  Product::all();
+    return view('hasmany', ['shops' => $shops, 'products' => $products]);
+})->name('Has Many to Has Many');

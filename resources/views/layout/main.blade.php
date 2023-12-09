@@ -11,8 +11,9 @@
     <div class="container">
         <div class="card container py-3">
             <div class="row">
-                <div class="col-6"><a href="../hasOne">HasOne</a></div>
-                <div class="col-6"><a href="../">HasMany</a></div>
+                <div class="col-4"><a href="../hasOne">HasOne</a></div>
+                <div class="col-4"><a href="../">HasMany</a></div>
+                <div class="col-4"><a href="../hasMany">Many to Many</a></div>
             </div>
             @yield('main')
 
